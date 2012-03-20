@@ -61,7 +61,7 @@ for those one-off tasks, with a language that's a joy to use.
   spec.add_dependency 'json_pure',            '1.4.3'
   spec.add_dependency 'rubyforge',            '2.0.3'
   spec.add_dependency 'hoe',                  '2.3.3'
-  spec.add_dependency 'rjb',                  '1.3.7' if spec.platform.to_s == 'x86-mswin32' || spec.platform.to_s == 'ruby'
+  spec.add_dependency 'rjb',                  '1.3.9' if spec.platform.to_s == 'x86-mswin32' || spec.platform.to_s == 'ruby'
   spec.add_dependency 'atoulme-Antwrap',      '~> 0.7.2'
   spec.add_dependency 'diff-lcs',             '1.1.2'
   spec.add_dependency 'rspec-expectations',   '2.1.0'
